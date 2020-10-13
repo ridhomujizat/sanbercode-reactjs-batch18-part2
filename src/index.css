@@ -4,26 +4,8 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
-.App {
-  margin: auto;
-  width: 800px;
-  border: 0.1em black solid;
-  border-radius: 12px;
-  height: 300px;
-}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-table, th, td {
-  border: 1px solid black;
-}
-th{
-  background-color: gray;
-}
-tr{
-  background-color: rgb(255, 94, 0);
-}
-th, tr {
-  width: 500px;
-}
+
