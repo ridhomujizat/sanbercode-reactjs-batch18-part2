@@ -1,58 +1,55 @@
-import React from 'react'
-
+import React from "react";
 
 export default function Tugas9() {
-    return (
-        <div>
-            <h1 style={{ textAlign: "center" }}>Form Pembelian Buah</h1>
-      <div style={{ "padding-left": "25px" }}>
-        <div style={{ display: "block", "margin-bottom": "1em" }}>
+  return (
+    <div>
+      <h1 style={{ textAlign: "center" }}>Form Pembelian Buah</h1>
+      <div style={{ paddingLeft: "25px" }}>
+        <div style={{ display: "block", marginBottom: "1em" }}>
           <div
             style={{
               display: "inline-block",
               width: "150px",
-              "font-weight": "bold",
-              "font-size": "16px",
+              fontWeight: "bold",
+              fontSize: "16px",
             }}
           >
             Nama Pelanggan
           </div>
-          <input style={{ display: "inline-block" }} />
+          <input style={{ display: "inline-block" }} name="name" />
         </div>
-        <div style={{ display: "block", "margin-bottom": "1em" }}>
+        <div style={{ display: "block", marginBottom: "1em" }}>
           <div
             style={{
               display: "inline-block",
               width: "150px",
-              "font-weight": "bold",
-              "font-size": "16px",
+              fontWeight: "bold",
+              fontSize: "16px",
             }}
           >
             Daftar Item
           </div>
           <div style={{ display: "inline-block" }}>
-            <input type="checkbox" value="Semangka" />
-            <label for="Semangka">Semangka</label>
+            <input type="checkbox" name="Semangka" value="Semangka" />
+            <label>Semangka</label>
             <br />
-            <input type="checkbox" value="Jeruk" />
-            <label for="Jeruk">Jeruk</label>
+            <input type="checkbox" name="Jeruk" value="Jeruk" />
+            <label>Jeruk</label>
             <br />
-            <input type="checkbox" value="Nanas" />
-            <label for="Nanas">Nanas</label>
+            <input type="checkbox" name="Nanas" value="Nanas" />
+            <label>Nanas</label>
             <br />
-            <input type="checkbox" value="Salak" />
-            <label for="Salak">Salak</label>
+            <input type="checkbox" name="Salak" value="Salak" />
+            <label>Salak</label>
             <br />
-            <input type="checkbox" value="Angur" />
-            <label for="Angur">Angur</label>
+            <input type="checkbox" name="Angur" value="Angur" />
+            <label>Angur</label>
             <br />
             <br />
           </div>
         </div>
-        <button style={{ padding: "5px", "border-radius": "10px" }}>
-          Kirim
-        </button>
+        <button style={{ padding: "5px", borderRadius: "10px" }}>Kirim</button>
       </div>
-        </div>
-    )
+    </div>
+  );
 }
