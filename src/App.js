@@ -6,7 +6,8 @@ import "./App.css";
 // import Tugas11 from "./Tugas-11/Tugas11";
 // import Tugas12 from "./Tugas-12/Tugas12";
 // import Tugas13 from "./Tugas-13/Tugas13";
-import Tugas14 from "./Tugas-14/Tugas14";
+// import Tugas14 from "./Tugas-14/Tugas14";
+import Navbar from "./Tugas-15/Navbar";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Tugas10 />
       <Tugas11 />
       <Tugas13 /> */}
-      <Tugas14 />
+      <Navbar />
     </div>
   );
 }
